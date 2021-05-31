@@ -9,6 +9,8 @@ Tech-Stack Used to create it are :-
 
 𝑻𝒐𝒐𝒍𝒔- Visual Studio Code, Emmet, Git, GitHub, Windows PowerShell, Nodemon
 
+𝑴𝒆𝒕𝒉𝒐𝒅𝒐𝒍𝒐𝒈𝒚- Inheritance, a concept of Object Oriented Programming(OOP)
+
 𝑺𝒆𝒓𝒗𝒆𝒓- MongoDB
 
 𝑫𝒂𝒕𝒂𝒃𝒂𝒔𝒆- MongoDB
