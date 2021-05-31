@@ -1,0 +1,51 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+
+block content
+    section#intro-section
+        div  Welcome to Shivansh's Dance Academy
+        div.small  Live Learn Dance Repeat
+
+    section#mission-section 
+        h1 Our Mission 
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img 
+                    img(src="/static/img/img5.png")
+
+                div.card-content 
+                    p Dancers are not just performing artists; their bodies are also the instruments through which the art is created. 
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img 
+                    img(src="/static/img/img6.jpg")
+
+                div.card-content 
+                    p Growth never comes from the comfort zone. Every time I dance or perform I feel like I am stepping into a new realm. 
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img 
+                    img(src="/static/img/img4.jpg")
+
+                div.card-content 
+                    p This is the best dance academy of the universe. India's best dancers are trained here and become professional dancers
+
+    section#sponsors-section
+        h1 Our Sponsors
+
+        div#sponsors 
+            img(src="/static/img/apple.jpg", alt="logo_apple" class="spImage")
+            img(src="/static/img/microsoft.jpg", alt="logo_apple" class="spImage")
+            img(src="/static/img/amazon.png", alt="logo_apple" class="spImage")
+            img(src="/static/img/skype.png", alt="logo_apple" class="spImage")
+    footer#footer 
+        | Copyright © 2019 ShivanshDanceAcademy.com | All rights reserved 

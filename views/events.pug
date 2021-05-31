@@ -1,0 +1,52 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/events.css
+
+block content
+
+    div.container
+        div.cont1
+            div.subcard
+                h2.card-heading Upcoming Events
+            div.sublist
+                p.listitems 1. Indian Dance League 
+                p.listitems 2. Dance India Dance  
+                p.listitems 3. Dancing Talents
+                p.listitems 4. Rock Dancers
+                p.listitems 5. Just Dance 
+                p.listitems 6. Dance with Passion 
+                p.listitems 7. Dance competition 2020 
+                p.listitems 8. Dance and Dance 
+                p.listitems 9. Dancing Angels 
+                p.listitems 10. India's Top Dancers
+                p.listitems 11. Contest of Dance 
+                 
+        div.cont2
+            div.conthead
+                h2.card-heading Winners
+            div.sublist
+                p.listitems 1. Himanshi 
+                p.listitems 2. Shubham Tiwari  
+                p.listitems 3. Rohan Kumar
+                p.listitems 4. Niyati Singh
+                p.listitems 5. Shashank Shekhar
+                p.listitems 6. Rashmi Singh 
+            div.conthead2
+                h2.card-heading Top-Performers
+            div.sublist
+                p.listitems 1. Rishank Sharma 
+                p.listitems 2. Shruti Singh  
+                p.listitems 3. Ritika Agarwal
+                p.listitems 4. Ronak Singh
+                p.listitems 5. Vivek Mishra 
+                p.listitems 6. Varsha Thakur 
+                p.listitems 7. Pragati Singh
+
+    footer#footer 
+        | Copyright © 2019 ShivanshDanceAcademy.com | All rights reserved 

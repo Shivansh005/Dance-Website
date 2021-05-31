@@ -1,0 +1,62 @@
+//- index.pug
+doctype html
+html
+  head
+    title Harry Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul
+            div#logo
+                img(src="/static/img/logo.png")
+                | HDA 
+            li #[a(href="/") Home]
+            li #[a(href="/") About] 
+            li #[a(href="/static/contact") Contact Us] 
+            li #[a(href="/") Services] 
+            li #[a(href="/") Join Us]
+
+    section#intro-section
+        div  Welcome to Harry's Dance Academy
+        div.small  Live Learn Dance Repeat
+
+    section#mission-section 
+        h1 Our Mission 
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img 
+                    img(src="/static/img/img5.png")
+
+                div.card-content 
+                    p This is the best dance academy of the universe. India's best dancers are trained here for the competitions
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img 
+                    img(src="/static/img/img6.jpg")
+
+                div.card-content 
+                    p This is the best dance academy of the universe. India's best dancers are trained here for the competitions
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img 
+                    img(src="/static/img/img4.jpg")
+
+                div.card-content 
+                    p This is the best dance academy of the universe. India's best dancers are trained here for the competitions
+
+    section#sponsors-section
+        h1 Our Sponsors
+
+        div#sponsors 
+            img(src="/static/img/apple.jpg", alt="logo_apple" class="spImage")
+            img(src="/static/img/microsoft.jpg", alt="logo_apple" class="spImage")
+            img(src="/static/img/amazon.png", alt="logo_apple" class="spImage")
+            img(src="/static/img/skype.png", alt="logo_apple" class="spImage")
+    footer#footer 
+        | Copyright © 2019 HarryDanceAcademy.com | All rights reserved
+    script
+      include ../static/index.js
